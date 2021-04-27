@@ -1,0 +1,152 @@
+.header {
+    &__wrapper {
+        background-color: #1d2327;
+    }
+    &__top-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    &__town-select {
+        cursor: pointer;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 0.01em;
+        color: #010101;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    &__callback {
+
+    }
+    &__nav {
+        
+    }
+}
+
+.header-callback {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    &__phone {
+        font-size: 20px;
+        line-height: 22px;
+        color: #010101;
+        text-decoration: none;
+        margin: 0 20px 0 0;
+        &:hover {
+            color: #010101;
+            text-decoration: underline;
+        }
+    }
+    &__modal-form {
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 12px;
+        color: #f57d34;
+        background-color: rgba(245, 208, 0, 0);
+        background-image: url(/img/dest/header/phone-receiver-icon.png);
+        background-repeat: no-repeat;
+        background-position: left 11% center;
+        padding: 4px 22px 5px 40px;
+        margin: 0 40px 0 0;
+        border: 1px solid #f57d34;
+        border-radius: 20px;
+        text-transform: uppercase;
+        transition: all .3s ease-in-out;
+        &:hover {
+            color: #fff;
+            background-color: #f57d34;
+            background-image: url(/img/dest/header/phone-receiver-icon_white.png);
+            transition: all .3s ease-in-out;
+        }
+    }
+    &__chat {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 900;
+        font-size: 12px;
+        color: #fff;
+        background-color: #f57d34;
+        background-image: url(/img/dest/header/repairing-service_icon.png);
+        background-repeat: no-repeat;
+        background-position: left 11% center;
+        padding: 5px 55px 6px 55px;
+        border-radius: 20px;
+        text-transform: uppercase;
+        transition: all .3s ease-in-out;
+        &:hover {
+            color: #fff;
+            background-color: rgba(245, 125, 52, .8);
+            transition: all .3s ease-in-out;
+        }
+    }
+}
+
+.header-nav {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+    padding: 6px 0;
+    &__logo {
+        display: block;
+        margin: 0 0 0 18px;
+        img {
+
+        }
+    }
+    &__list {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        margin: 0 0 0 175px;
+    }
+    &__item {
+        &:not(:last-child) {
+            margin: 0 47px 0 0;
+        }
+    }
+    &__link {
+        position: relative;
+        font-weight: 600;
+        color: #fff;
+        text-decoration: none;
+        transition: all .3s ease-in-out;
+        &:hover {
+            color: #f57d34;
+            transition: all .3s ease-in-out;
+            &::before {
+                content: '';
+                position: absolute; 
+                width: 100%;
+                height: 4px;
+                bottom: -34px;
+                background-color: #f5d000;
+                transition: all .3s ease-in-out;
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                display: inline-block;
+                width: 0;
+                height: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -31px;
+                border-style: solid;
+                border-width: 0 5px 5.2px 5px;
+                border-color: transparent transparent #f5d000 transparent;
+                transition: all .3s ease-in-out;
+            }
+        }
+        &_active {
+            color: #f57d34;
+        }
+    }
+}
+

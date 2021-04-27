@@ -1,5 +1,12 @@
 @import 'config';
 
-// CUSTOM USER STYLES & IMPORTS
+@import 'global/global'; // global styles
+@import 'global/header'; // header styles
+
+@import 'blocks/rent-car'; // Rent card block
+@import 'blocks/cars-catalog'; // Car catalog block
+@import 'blocks/why-us'; // Why us block
+
+@import 'media'; // media
 
 

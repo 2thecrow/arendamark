@@ -1,0 +1,48 @@
+.why-us {
+    position: relative;
+    &__wrapper {
+        position: relative;
+        max-width: 1920px;
+        width: 100%;
+        background-image: url(/img/dest/about_bg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        padding: 70px 0 109px;
+        margin: 0 auto;
+    }
+    .title {
+        margin: 0 0 53px 0;
+       &_bold {
+           
+       }
+    }
+    
+}
+
+.why-card {
+    display: flex;
+    max-width: 345px;
+    width: 100%;
+    margin: 0 0 83px 0;
+    &__image {
+        margin: 0 19px 0 0;
+    }
+    &__content {
+
+    }
+    &__title {
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 26px;
+        color: #fff;
+        margin: -5px 0 8px 0;
+        text-transform: uppercase;
+    }
+    &__description {
+        font-size: 13px;
+        line-height: 20px;
+        color: #f3992b;
+    }
+}
+

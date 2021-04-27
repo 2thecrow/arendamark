@@ -9,14 +9,312 @@
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" href="/img/favicon.png">
 	<meta property="og:image" content="/img/dest/preview.jpg">
+	<link rel="stylesheet" href="/js/swiperjs/swiper-bundle.min.css">
 	<link rel="stylesheet" href="/css/app.min.css">
 
 </head>
 
 <body>
 	
-	
+	<!-- Header -->
+	<header class="header wrapper">
+		<!-- Header top line menu-->
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header__top-nav">
+						<div class="header__town-select">Выбор города</div>
+						<div class="header__callback header-callback">
+							<a href="tel:+77772224455" class="header-callback__phone">+7 (777) 222-44-55</a>
+							<div class="header-callback__modal-form">Заказать звонок</div>
+							<div class="header-callback__chat">Онлайн - чат</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Header main menu -->
+		<div class="header__wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header__nav header-nav">
+							<a class="header-nav__logo" href="/">
+								<img src="/img/dest/logo.png" alt="Арендамарк">
+							</a>
+							<ul class="header-nav__list">
+								<li class="header-nav__item">
+									<a href="" class="header-nav__link header-nav__link_active">О компании</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="" class="header-nav__link">Услуги</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="" class="header-nav__link">Акции</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="" class="header-nav__link">Автопарк</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="" class="header-nav__link">Отзывы</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="" class="header-nav__link">Статьи</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="" class="header-nav__link">Контакты</a>
+								</li>
+							</ul>                      
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
+	<!-- Rent Car in your town -->
+	<section class="rent-car wrapper">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h1 class="title">Аренда авто в <span class="title_bold">Кемерово</span></h1>
+					<div class="rent-car__description">
+						<p>
+							Предлагаем аренду авто в Кемерово на любой вкус. В наличии всегда есть свободные автомобили, как бюджетного, так и представительского класса, от 1200 руб./сутки. У нас вы можете взять автомобиль в аренду сроком от 1 суток, с минимальным пакетом документов и требований. Все автомобили, предлагаемые в аренду - застрахованы, полностью технически обслужены и подготовлены к работе.
+						</p>
+						<p>
+							Компания "МАРК авто" предлагает аренду легковых автомобилей в Кемерово как лучший вариант, чтобы выполнить все свои дела и быть свободным от случайностей. Ваше желание арендовать авто будет нами исполнено незамедлительно.
+							Наша компания - одна из самых надежных на рынке аренды и проката автомобилей. Нашей помощью пользуются сотни клиентов, как в Кемерово, так и из других городов, потому что мы обеспечиваем качество услуги и доверяем людям.
+						</p>
+					</div>
+					<a href="/" class="btn btn__more">Подробнее >></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Cars catalog  -->
+	<section class="car-park wrapper">
+		<div class="container-fluid car-park__container">
+			<div class="row">
+				<div class="col">
+					<div class="car-park__header section__header">
+						<h2 class="title">Каталог<span class="title_bold">авто в аренду</span></h2>
+						<a class="section__more" href="">Весь автопарк</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<!-- Slider main container -->
+					<div>
+						<!-- If we need navigation buttons -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+					<div class="swiper-container catalog-slider">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slide -->
+							<div class="swiper-slide">
+								<div class="catalog-slide">
+									<div class="catalog-slide__card">
+										<div class="catalog-slide__image">
+											<img src="/img/dest/test_layout/car-1.png" alt="Car alt text">
+										</div>
+										<div class="catalog-slide__container">
+											<div class="catalog-slide__title">Nissan Almera 2017, МКПП</div>
+											<div class="catalog-slide__desctiption">
+												<div class="catalog-slide__price">от 1500 руб/сутки</div>
+												<a class="catalog-slide__more" href="">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Slide -->
+							<div class="swiper-slide">
+								<div class="catalog-slide">
+									<div class="catalog-slide__card">
+										<div class="catalog-slide__image">
+											<img src="/img/dest/test_layout/car-2.png" alt="Car alt text">
+										</div>
+										<div class="catalog-slide__container">
+											<div class="catalog-slide__title">Nissan Almera 2017, МКПП</div>
+											<div class="catalog-slide__desctiption">
+												<div class="catalog-slide__price">от 1500 руб/сутки</div>
+												<a class="catalog-slide__more" href="">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Slide -->
+							<div class="swiper-slide">
+								<div class="catalog-slide">
+									<div class="catalog-slide__card">
+										<div class="catalog-slide__image">
+											<img src="/img/dest/test_layout/car-3.png" alt="Car alt text">
+										</div>
+										<div class="catalog-slide__container">
+											<div class="catalog-slide__title">Nissan Almera 2017, МКПП</div>
+											<div class="catalog-slide__desctiption">
+												<div class="catalog-slide__price">от 1500 руб/сутки</div>
+												<a class="catalog-slide__more" href="">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Slide -->
+							<div class="swiper-slide">
+								<div class="catalog-slide">
+									<div class="catalog-slide__card">
+										<div class="catalog-slide__image">
+											<img src="/img/dest/test_layout/car-1.png" alt="Car alt text">
+										</div>
+										<div class="catalog-slide__container">
+											<div class="catalog-slide__title">Nissan Almera 2017, МКПП</div>
+											<div class="catalog-slide__desctiption">
+												<div class="catalog-slide__price">от 1500 руб/сутки</div>
+												<a class="catalog-slide__more" href="">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Slide -->
+							<div class="swiper-slide">
+								<div class="catalog-slide">
+									<div class="catalog-slide__card">
+										<div class="catalog-slide__image">
+											<img src="/img/dest/test_layout/car-2.png" alt="Car alt text">
+										</div>
+										<div class="catalog-slide__container">
+											<div class="catalog-slide__title">Nissan Almera 2017, МКПП</div>
+											<div class="catalog-slide__desctiption">
+												<div class="catalog-slide__price">от 1500 руб/сутки</div>
+												<a class="catalog-slide__more" href="">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Slide -->
+							<div class="swiper-slide">
+								<div class="catalog-slide">
+									<div class="catalog-slide__card">
+										<div class="catalog-slide__image">
+											<img src="/img/dest/test_layout/car-3.png" alt="Car alt text">
+										</div>
+										<div class="catalog-slide__container">
+											<div class="catalog-slide__title">Nissan Almera 2017, МКПП</div>
+											<div class="catalog-slide__desctiption">
+												<div class="catalog-slide__price">от 1500 руб/сутки</div>
+												<a class="catalog-slide__more" href="">Подробнее</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Why us -->
+	<section class="why-us">
+		<div class="why-us__wrapper">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="section__header">
+							<h2 class="title title_white">Почему <span class="title_bold">аренда авто</span> - у нас?</h2>
+						</div>
+					</div>
+				</div>
+				<!-- List -->
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+					<!-- Item -->
+					<div class="col">
+						<div class="why-card">
+							<div class="why-card__image">
+								<img src="/img/dest/icons/quality-icon.png" alt="Quality icon">
+							</div>
+							<div class="why-card__content">
+								<h3 class="why-card__title">Бонусная карта</h3>
+								<div class="why-card__description">Специальная программа, с помощью которой вам на счёт будут начисляться бонусы.</div>
+							</div>
+						</div>
+					</div>
+					<!-- Item -->
+					<div class="col">
+						<div class="why-card">
+							<div class="why-card__image">
+								<img src="/img/dest/icons/list-icon.png" alt="List icon">
+							</div>
+							<div class="why-card__content">
+								<h3 class="why-card__title">По двум документам</h3>
+								<div class="why-card__description">Для оформления автомобиля в аренду, нужег только ваш паспорт и водительское удостоверение</div>
+							</div>
+						</div>
+					</div>
+					<!-- Item -->
+					<div class="col">
+						<div class="why-card">
+							<div class="why-card__image">
+								<img src="/img/dest/icons/megaphone-icon.png" alt="Sales icon">
+							</div>
+							<div class="why-card__content">
+								<h3 class="why-card__title">Акции</h3>
+								<div class="why-card__description">Каждый месяц мы проводим новые выгодные акции для наших клиентов.</div>
+							</div>
+						</div>
+					</div>
+					<!-- Item -->
+					<div class="col">
+						<div class="why-card">
+							<div class="why-card__image">
+								<img src="/img/dest/icons/support-icon.png" alt="Support icon">
+							</div>
+							<div class="why-card__content">
+								<h3 class="why-card__title">Поддержка</h3>
+								<div class="why-card__description">Наши менеджеры всегда на связи и не оставят вас наедине с возможными вопросами и проблемами.</div>
+							</div>
+						</div>
+					</div>
+					<!-- Item -->
+					<div class="col">
+						<div class="why-card">
+							<div class="why-card__image">
+								<img src="/img/dest/icons/discount-icon.png" alt="Discount icon">
+							</div>
+							<div class="why-card__content">
+								<h3 class="why-card__title">Низкие цены</h3>
+								<div class="why-card__description">Свободная аренда автомобиля от 1200 руб./сутки</div>
+							</div>
+						</div>
+					</div>
+					<!-- Item -->
+					<div class="col">
+						<div class="why-card">
+							<div class="why-card__image">
+								<img src="/img/dest/icons/quality-icon.png" alt="Quality icon">
+							</div>
+							<div class="why-card__content">
+								<h3 class="why-card__title">Безопасность</h3>
+								<div class="why-card__description">Все автомобили проходят регулярный технический осмотр, застрахованы и полностью готовы.</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="/js/swiperjs/swiper-bundle.min.js"></script>
 	<script src="/js/app.min.js"></script>
 
 </body>
